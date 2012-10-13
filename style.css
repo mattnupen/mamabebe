@@ -1,0 +1,109 @@
+/******************************************************************
+Theme Name: MamaBebe
+Theme URI: http://www.mamabebe.org
+Description: Website theme for Mamabebe.org
+Author: Matt Nupen
+Author URI: http://nupen.us
+Github Theme URI: https://github.com/mattnupen/mamabebe.git
+Version: 1.5.6
+Tags: html5, css3, development, responsive, media queries, mobile, h5bp
+
+
+This site was built using the Bones Development Theme (Responsive Edition). For more information about Bones or to view documentation, you can visit the <a href="https://github.com/eddiemachado/bones-responsive/issues" title="Responsive Bones Issues">Bones Issues</a> page on Github. You can also view the conversation on Twitter by following the hashtag: <a href="http://twitter.com/#!/search/%23wpbones">#wpbones</a>.
+MAKE SURE TO READ BELOW BEFORE GETTING STARTED FOR THE FIRST TIME!
+
+/*****************/
+/*  CHANGE LOG:  */
+/*****************/
+/*
+1.5.6 (10-13-12)
+- changed site font back to Verdana
+- changed testimonials (orange box) font to GentiumBookBasicRegular from fontsquirrel.com
+- implemented Github theme updater, https://github.com/UCF/Theme-Updater
+
+1.5.5 (9-11-12)
+- modified styling to make compatible with woocommerce plugin
+- changed default font to opensans
+- added woocommerce code changes to functions.php
+	- removes related products
+- added print.css
+- added organize series plugin, custom css made
+	http://organizeseries.com/
+- font quicksand used for orange box
+- changed size of featured image
+
+
+
+1.5.4 (8-24-12)
+- 
+
+1.5.3 (8-9-12)
+- Changed glossary item styling
+- Changed widget styling
+- h4 changed to #013b01
+- H3 to 14px H2 to 16px
+- increased time on flexslider to 12 sec.
+- added 404 page
+
+1.5.2 (7-24-12)
+- changed heading styles
+- updated editor-style.css to match site changes
+- glossry styling.  glossary list set to display: none
+
+1.5.1 (7-20-12)
+- changed text color
+- some css fine tuning
+- removed top bar
+- added hardcoded link to contact form
+
+1.5 (7-18-12)
+- added facebook plugin
+- removed underline from H2
+- add margins to H2-H4
+- underlines and :hover for links
+- added "small" image size.  has max width of 150 and height of 250.  does not crop
+- increased lineheight
+- custom css for woocommerce plugin
+
+
+1.4 (5-13-12)
+- updated widget styling
+- orangebox styling available when editing content
+- widget styling
+- nav styling
+
+1.3 (5-3-12)
+- text formatting changes for content
+- added editor-style.css and add_editor_style() to functions.php
+- added tinymce-kit plugin for custom Style dropdown in editor
+	- http://plugins.svn.wordpress.org/tinymce-advanced/branches/tinymce-kit/tinymce-kit.php
+	- http://wp.tutsplus.com/tutorials/theme-development/adding-custom-styles-in-wordpress-tinymce-editor/
+- changed to suckerfish menu for main vertical nav
+
+1.2
+- went back to simple facebook connect
+- WP styling
+- added DC vertical flyout menu
+- css fixes
+- corrected hardcoded links
+
+1.11
+- Updated swoosh color
+- Uses Bones theme FB plugin, FB id is hardcoded in plugins.php
+
+
+1.10 - 4-14-12
+- removed facebook plugin support due to odd issues, looking at alternative or solution
+
+1.0		4-1-12
+- First WP theme version
+
+
+******************************************************************/
+
+
+
+
+
+
+

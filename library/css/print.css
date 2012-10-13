@@ -1,0 +1,357 @@
+/*
+Theme Name: Mamabebe
+Theme URI: http://www.mamabebe.com
+Description: print css for mamabebe.org
+Author: Matt Nupen
+Author URI: http://nupen.us
+*/
+
+
+
+a {
+	text-decoration: underline;
+}
+a img {
+	border: none;
+}
+
+body{
+	font-size: 1em;
+	font-family: 'OpenSansRegular', Arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearFix {
+	clear: both;
+	display: block;
+	height: 0px;
+}
+
+/* Page Heading */
+#banner {
+	height: 1.6in;
+	position: relative;
+}
+
+#topCTA {
+	position: absolute;
+	left: 5.5in;
+	top: .3in;
+	border-left: 1px solid #CCC;
+	width: 2in;
+	padding: .1in 0 0 .1in;
+}
+#topCTA h1, #topCTA span{
+	display: inline;
+	font-size: 1em;
+	font-weight: normal;
+}
+#topCTA .call {
+	font-size: 1.1em;
+	display: block;
+}
+#topCTA .or, #topCTA .pinkButton {
+	display: none;
+}
+
+#blog_info {
+	position: absolute;
+	top: .25in;
+	left: 2in;
+	width: 3.3in;
+	font-size: 1.4em;
+}
+
+#logo img {
+	height: 1.3in;
+	position: absolute;
+	left: .2in;
+}
+
+#logo #blog_name {
+	display: none;
+}
+
+#logo #blog_url {
+	position: absolute;
+	top: 1.1in;
+	left: 2in;
+	font-size: .8em;
+}
+
+#stroke1 {
+	position: absolute;
+	bottom: 0in;
+	width: 8in;
+}
+
+/* general content */
+
+p {
+	margin: 0 0 10px 0;
+}
+
+.post_info {
+	font-size: .8em;
+}
+
+#rightCol .featured_image {
+	float: right;
+	border: 8px solid #FFF;
+	box-shadow: 1px 3px 3px #777;
+	margin: -10px 15px 10px 20px;
+	width: 80px;
+	height: auto;
+	-moz-transform: rotate(4deg);
+	-webkit-transform: rotate(4deg);
+	transform: rotate(4deg);
+}
+
+#rightCol h1 {
+	font-family: "Lucida Handwriting", 'Dancing Script', cursive;
+	font-size: 28px;
+	color: #013b01;
+	margin: 10px 0px 10px 0px;
+	font-weight: normal;
+}
+
+#rightCol h1 a {
+	text-decoration: none;
+	color: #013b01;
+}
+
+#rightCol section h1 {
+	background: none;
+	margin: 18px 0px 12px 10px;
+	padding: 0px;
+	font-size: 20px;
+
+}
+
+#rightCol h2 {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 22px 0px 10px 0px;
+}
+
+#rightCol h3 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 22px 0px 10px 0px;
+}
+
+#rightCol h4 {
+	color: #013b01;
+	font-family: "Lucida Handwriting", 'Dancing Script', cursive;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 22px 0px 6px 2px;
+}
+
+#rightCol h5 {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 14px 0px 10px 0px;
+}
+
+ul, ol, dl {
+display:inline-block; /* trigger hasLayout in IE */
+}
+
+#rightCol ul, #rightCol ol, #rightCol dl {
+	margin: 0 0 30px 0;
+	line-height: 1.5em;
+	padding: 0 0 0 30px;
+	display: block; /* reset to default (triggered hasLayout will stay) */
+	overflow: hidden; /* clear floats in good browsers */
+}
+
+#rightCol ul { list-style-type: disc; }
+#rightCol ol { list-style-type: decimal; }
+
+#rightCol li {
+	margin: 2px 0px;
+}
+
+#rightCol img {
+	margin: 18px;
+}
+
+#rightCol .wp-caption {
+	border: 4px solid #FFF;
+	margin: 18px;
+	border: 1px solid #ccc;
+}
+
+#rightCol .wp-caption img {
+	margin: 4px;
+	box-shadow: none;
+	border: none;
+}
+
+#rightCol .wp-caption p {
+	margin: 0px 4px 4px 6px;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.wp-caption {
+	padding: 2px;
+	color: #333;
+	background: #FFF;
+}
+
+/* @group Post CSS */
+.blog article, .category article, .archive article {
+	margin: 0 0 2.6em;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #CCC;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	padding: 10px;
+	width: 90%;
+}
+
+.blog #rightCol header, .category #rightCol header, .archive #rightCol header {
+	
+}
+
+
+.blog #rightCol h3, .category #rightCol h3, .archive #rightCol h3 {
+	margin: 5px;
+	border: none;
+	font-size: 1.4em;
+	font-weight: normal;
+	padding-bottom: 5px;
+} 
+
+.blog .meta, .category .meta, .archive .meta {
+	padding: .6em 0 .4em 5px;
+	font-size: .9em;
+}
+
+.blog header time, .category header time {
+	margin: 0 15px 0 0;
+}
+
+.blog  header .cats a, .category  header .cats a, .archive header .cats a, .category  header .cats, .blog  header .cats, .archive header .cats {
+	color: #5596A5;
+	text-decoration: none;
+}
+
+.blog section, .category section, .archive section {
+	font-size: 1em;
+}
+
+.blog footer, .category footer, .archive footer {
+	clear: both;
+	font-size: .7em;
+}
+
+/* @end Post CSS */
+
+
+/*testimonial box */
+#testimonialBox {
+	clear: both;
+	margin: 10px 0px;
+	border-top: 3px solid #CCC;
+	padding: 5px 0;
+	font-size: 1em;
+}
+
+#testimonialBox h1 {
+	font-size: 1.2em;
+}
+
+.flex-viewport {
+	position: fixed;
+}
+
+#qRotator {
+	width: 7in;
+	-webkit-transform: translate3d(0,0,0)!important;
+	margin: 0px .2in;
+	padding: 0px;
+}
+
+#qRotator li {
+	clear: both;
+	height: auto;
+	float: none !important;
+	width: 7in !important;
+	border-bottom: 3px solid #CCC;
+	padding: 2px;
+}
+
+.orangeBox {
+	
+}
+
+.clone {
+	display: none !important;
+}
+
+#qRotator img {
+	float: right;
+	max-height: 50%;
+}
+
+#testimonialBox ul {
+	list-style-type: none;
+}
+
+#testimonialBox li {
+	
+}
+
+.flex-control-nav, .flex-direction-nav {
+	display: none !important;
+}
+
+
+
+/* Footer */
+#footer {
+	border-top: 3px solid #CCC;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+#designedBy:after {
+	content:" - www.whampus.com";
+}
+
+.fCol {
+	display: none;
+}
+
+.fCol.widget_text {
+	display: block;
+	padding: .2in;
+	font-size: .8em;
+}
+
+#designedBy, #copyright, #footerContact {
+	padding: 0px 0px 0px .2in;
+	font-size: .7em;
+}
+
+#footerContact {
+	font-size: 1em;
+}
+
+
+
+
+/* things to hide */
+#leftCol, #bannerBottomBar, #buttonNav, #footerImage, .meta, .gform_wrapper {
+	display: none;
+}
+
+
